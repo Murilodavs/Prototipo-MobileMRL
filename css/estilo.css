@@ -55,8 +55,31 @@ text-align: center;
 .btn-controle{
     width: 49%;
     
+}
 
+.container-produtos{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #1e1f20;
+    border-radius: 10px;
+}
 
+img{
 
+    margin-top: 15px;
 
 }
+
+.card{
+    margin: 10px;
+    text-align: center;
+}
+
+.container-conteudo-contato{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #acacacee;
+    border-radius: 10px;
+    max-width: 450px;
+}
+

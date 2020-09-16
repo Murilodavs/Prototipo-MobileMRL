@@ -29,53 +29,59 @@
         <li class="nav-item">
           <a class="nav-link" href="index.html">Principal</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="usuario.html">Usuário</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="produtos.html">Produtos</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="contato.html">Contato</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="container container-usuario">
+  <div class="container container-conteudo-contato">
     <form>
       <div class="form-group div-titulo">
-        <h3>Usuário</h3>
+        <h3>Entre em contato</h3>
       </div>
 
-    <div class="form-group">
-      <label>Nome</label>
-      <input class="form-control" type="text" id="nome">
-    </div>
+      <div class="form-group">
+        <label><i class="fa fa-user" aria-hidden="true"> NOME</i></label>
+        <input class="form-control" type="text" id="nome" required>
+      </div>
 
 
-
-    <div class="form-group">
-      <label>Login</label>
-      <input class="form-control" type="text" id="login">
-    </div>
 
       <div class="form-group">
-        <label>Senha</label>
-        <input class="form-control" type="password" id="senha">
+        <label><i class="fa fa-envelope" aria-hidden="true"> E-MAIL</i></label>
+        <input class="form-control" type="email" id="email" required>
+      </div>
 
-<div class="form-group">
-<button class="btn btn-secondary btn-controle" type= "reset">Limpar</button>
-<button class="btn btn-success btn-controle" type= "button">Salvar</button>
-<buttonSalvar</button>
+      <div class="form-group">
+        <label><i class="fa fa-whatsapp" aria-hidden="true"> WHATSAPP</i></label>
+        <input class="form-control" type="text" id="telefone" required>
+      </div>
+
+      <div class="form-group">
+        <label><i class="fa fa-commenting" aria-hidden="true"> Mensagem</i></label>
+        <textarea id="Mensagem" class="form-control" rows="10"></textarea>
+
+
+        <div class="form-group">
+          <button class="btn btn-secondary btn-controle" type="reset">Limpar</button>
+          <button class="btn btn-success btn-controle" type="button">Salvar</button>
+          </div>
 
 
 
-</div>
+        </div>
 
-        
-    </div>
-  </form>
+
+      </div>
+    </form>
   </div>
 
 
